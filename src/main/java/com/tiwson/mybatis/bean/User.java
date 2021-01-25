@@ -4,17 +4,17 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class User implements Serializable {
-    private Integer id;
+    private int id;
     private String username;
     private String address;
     private String sex;
     private Date birthday;
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
